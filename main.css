@@ -1,0 +1,55 @@
+.content-width {
+  max-width : 1140px;
+  padding-left : 40px;
+  padding-right : 40px;
+  margin-left : auto;
+  margin-right : auto;
+  position : relative;
+}
+
+.contents-tidy {
+  display : flex;
+  justify-content : space-between;
+}
+
+
+.moniter {
+    display : flex;
+    align-items : center;
+    margin-left : auto;
+    margin-right : auto;
+    margin-bottom : 5px;
+    width : 98%;
+    height : 60px;
+    background-color : #1f3134;
+}
+.moniter-text {
+    color : white;
+    font-size : 30px;
+    padding-right : 10px;
+}
+
+.btn-box {
+    width : 100%;
+    white-space: nowrap;
+    text-align : center;
+}
+.btn {
+    width : 24%;
+    height : 40px;
+    border-radius : 10px;
+    margin-bottom : 8px;
+    font-size : 20px;
+}
+.btn-under {
+    width : 49%;
+    height : 40px;
+    border-radius : 10px;
+    font-size : 20px;
+}
+
+input {
+    font-size : 30px;
+    color : white;
+    text-align : right;
+}
