@@ -1,4 +1,6 @@
-
+　　let target = document.getElementById("stop")
+　　
+　　
     function update( _v )
     {
         document.querySelector( 'input' ).value = _v
@@ -7,11 +9,14 @@
     function symbol( _v )
     {
         document.querySelector( 'input' ).value += _v
+        target.disabled = true
+
     }
     
     function append( _v )
     {
         document.querySelector( 'input' ).value += _v
+        target.disabled = false
     }
 
     function calc()
